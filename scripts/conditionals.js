@@ -1,9 +1,11 @@
 /* console.log("==== Task 1 ====");
-let n = 20;
-if (n >= 0) {
+let n = 0;
+if (n > 0) {
   console.log("Geras");
-} else {
+} else if (n < 0) {
   console.log("Blogas");
+} else {
+  console.log();
 } */
 
 /* console.log("==== Task 2 ====");
@@ -27,17 +29,19 @@ if (n >= k / d) {
 } */
 
 /* console.log("==== Task 4 ====");
-let a = 8;
-let b = 4;
+let a = 9;
+let b = 5;
 if (a > b) {
   console.log(a - 1);
   console.log(b + 1);
-} else {
+} else if (a < b) {
   console.log(a + 1);
   console.log(b - 1);
+} else {
+  console.log();
 } */
 
-/* console.log("==== Task 5 ====");
+/* console.log("==== Task 5 ===="); //galima ir be if
 let c = 85;
 let p = 20;
 if ((k = c / p)) {
