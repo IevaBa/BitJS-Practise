@@ -1,4 +1,4 @@
-/* console.log("==== Task 1 ====");
+/*console.log("==== Task 1 ====");
 let n = 0;
 if (n > 0) {
   console.log("Geras");
@@ -6,7 +6,7 @@ if (n > 0) {
   console.log("Blogas");
 } else {
   console.log();
-} */
+}*/
 
 /* console.log("==== Task 2 ====");
 let n = 2;
@@ -86,19 +86,27 @@ if (k === 1 || k === 3 || k === 5) {
   console.log("Skaičius turi būti nuo 1 iki 6");
 } */
 
-//console.log("==== Task 9 ====");
-/*let m = 1904;
-for (m = 1896; m < 2022; m = m + 4) {
-  console.log(m);
-}
-{
+/*console.log("==== Task 9 ====");
+let m = 1800;
+let n = (m - 1896) / 4 + 1;
+if (m >= 1896 && Number.isInteger(m / 4)) {
+  console.log(n);
+} else if (m < 1896) {
+  console.log("Olimpinių žaidynių dar nebuvo");
+} else {
   console.log("Metai neolimpiniai");
-}
-//} */
+} */
 
-console.log("==== Task 10 ====");
+/* console.log("==== Task 10 ====");
 let v1 = 8;
 let m1 = 29;
-let m2 = 43;
+let m2 = 23;
 let v = 9;
 let m = 5;
+let minutesToSchool = v1 * 60 + m1;
+let minuteLesonStart = v * 60 + m;
+if (m2 <= minuteLesonStart - minutesToSchool) {
+  console.log("Petras į pamoką nepavėluos");
+} else {
+  console.log("Petras į pamoką pavėluos");
+} */
