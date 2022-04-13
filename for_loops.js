@@ -56,7 +56,7 @@ for (let i = 1; i <= 10; i++) {
 /* let cm = 2.54;
 for (i = 1; i <= 10; i++) {
   coliai = cm * i;
-  console.log(i + "cm yra " + coliai + "col");
+  console.log(i + "col yra " + coliai + "cm"); 
 } */
 
 // console.log("==== Task 9 ====");
@@ -71,29 +71,18 @@ for (n = 1; n < 6; n++) {
   busimosPalukanos = (indelis * palukanos) / 100;
   console.log(
     n +
-      " " +
-      "metais" +
-      " " +
-      "sukaupėte" +
-      " " +
+      " metais sukaupėte " +
       busimosPalukanos.toFixed(2) +
-      " " +
-      "Eur" +
-      " " +
-      "palūkanų" +
-      ", " +
-      "bendra indėlio suma yra" +
-      " " +
+      " Eur palūkanų, bendra indėlio suma yra " +
       indelis.toFixed(2) +
-      "Eur"
+      " Eur "
   );
 } */
 
 //console.log("==== Task 10 ====");
 /* Keliamieji metai turi 366 dienas, paprastieji – 365. Visi metai, išskyrus šimtmečius, yra keliamieji, jie dalūs iš 4. Šimtmečių metai yra keliamieji, jeigu dalūs 400. Pvz.: 1600 metai yra keliamieji, nes dalūs iš 400, o 1700 – paprastieji. Raskite visus mūsų eros keliamuosius metus. */
 
-//nepabaigtas
-// let m = 2022;
-//for (let i = 1; i <= m; i++) {
-// if (i % 4 === 0 /* && i % 400 === 0 */) console.log(i);
-//}
+/* let m = 2022;
+for (let i = 1; i <= m; i++) {
+  if ((i % 4 === 0 && i % 100 !== 0) || i % 400 === 0) console.log(i);
+} */

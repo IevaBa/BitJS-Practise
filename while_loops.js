@@ -1,6 +1,5 @@
 /* console.log("==== Task 1 ====");
 //Generuoti atsitiktinius skaičius nuo 1 iki 10 tol, kol skaičių suma bus mažesnė už 100. */
-//kartais meta daugiau už 100 ??
 
 /* function rand(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
@@ -29,12 +28,14 @@ Tadas visą knygą perskaitys per 4 dienas (-ų).
 Tadas vidutiniškai per dieną perskaitė 2 skyrius(-ų). Įveskite knygos skyrių skaičių: 17
 Tadas visą knygą perskaitys per 6 dienas (-ų).
 Tadas vidutiniškai per dieną perskaitė 2.83 skyrius (-ų).*/
-/* let skyriai = 8;
-let d;
-let skyriaiPerDiena = d + 1;
-d++;
-let avg;
-while () */
+
+/* let m = 8; //skyriai
+let d = 1; //dienos
+let s = m/d ; //avg skyriai per dieną
+let n = 1; //tą dieną perskaityta 
+
+console.log("Tadas perskaitys knygą per " + d + " d.")
+console.log("Vidutiniškai per dieną Tadas perskaitys " + s + " sk.") */
 
 /* console.log("==== Task 4 ====");
 // Naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5. */
@@ -57,11 +58,12 @@ while (n !== 5) {
 
 /* console.log("==== Task 5 ====");
 // Naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5 arba 7; Suskaičiuoti kiek ciklų prasisuko. */
+
 /* let random = 0;
-let numbers = [];
+let count = 0;
 do {
   random = Math.floor(Math.random() * 11);
   console.log(random);
-  numbers.push(random);
+  count++;
 } while (random !== 7 && random !== 5);
-console.log("Ciklų skaičius:" + " " + numbers.length); */
+console.log("Ciklų skaičius: " + count); */

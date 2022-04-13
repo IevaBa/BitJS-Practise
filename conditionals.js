@@ -1,14 +1,12 @@
 //console.log("==== Task 1 ====");
 // Žinomas skaičius n. Parašykite programą, kuri nustatytų ar skaičius yra blogas ar geras? Neigiamas – „Blogas“, teigiamas „Geras“. Pasitikrinkite: Kai n = 20, turėtume gauti: Skaičius geras.
 
-/* let n = 0;
+/* let n = -5;
 if (n > 0) {
   console.log("Geras");
 } else if (n < 0) {
   console.log("Blogas");
-} else {
-  console.log();
-}*/
+} */
 
 // console.log("==== Task 2 ====");
 //Mokinys eina gatve ir prieina sankryžą reguliuojamą šviesoforu. Sudarykite programą, kuri nustatytu, kaip turi pasielgti mokinys? Žinome šviesoforo spalvos kodą n, 1-žalia, 2- geltona, 3-raudona. Pasitikrinkite: Kai n= 2, turėtume gauti: Palaukite.
@@ -45,8 +43,6 @@ if (a > b) {
 } else if (a < b) {
   console.log(a + 1);
   console.log(b - 1);
-} else {
-  console.log();
 } */
 
 // console.log("==== Task 5 ====");
@@ -106,7 +102,7 @@ if (k === 1 || k === 3 || k === 5) {
 
 /* let m = 1948;
 let n = (m - 1896) / 4 + 1;
-if (m >= 1896 && Number.isInteger(m / 4)) {
+if (m >= 1896 && m % 4 === 0) {
   console.log(n);
 } else if (m < 1896) {
   console.log("Olimpinių žaidynių dar nebuvo");
