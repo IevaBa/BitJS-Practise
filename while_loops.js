@@ -29,13 +29,12 @@ Tadas vidutiniškai per dieną perskaitė 2 skyrius(-ų). Įveskite knygos skyri
 Tadas visą knygą perskaitys per 6 dienas (-ų).
 Tadas vidutiniškai per dieną perskaitė 2.83 skyrius (-ų).*/
 
-/* let m = 8; //skyriai
-let d = 1; //dienos
-let s = m/d ; //avg skyriai per dieną
-let n = 1; //tą dieną perskaityta 
+//let m = 8; //skyriai
+//let d; //dienos
+//let s = m / d; //avg skyriai per dieną
 
-console.log("Tadas perskaitys knygą per " + d + " d.")
-console.log("Vidutiniškai per dieną Tadas perskaitys " + s + " sk.") */
+//console.log("Tadas perskaitys knygą per " + d + " d.");
+//console.log("Vidutiniškai per dieną Tadas perskaitys " + s + " sk.");
 
 /* console.log("==== Task 4 ====");
 // Naudojant ciklą atspausdinti skirtingus atsitiktinius skaičius nuo 0 iki 10 (vienas skaičius vienoje eilutėje). Paskutinis atspausdintas skaičius turi būti 5. */
