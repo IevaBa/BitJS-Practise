@@ -59,6 +59,18 @@ console.log(totalSum(5)); */
 //console.log("==== Task 6 ====");
 //Parašykite funkciją, kuri priimtų skaičių ir suskaičiuotų, iš kiek sveikų skaičių jos argumentas dalijasi be liekanos (išskyrus vienetą ir patį save).
 
+/* let n = 8;
+let count = 0;
+
+function myFunction(number) {
+  for (i = number - 1; i > 1; i--)
+    if (number % i === 0) {
+      count++;
+    }
+  console.log(count);
+}
+myFunction(n); */
+
 //console.log("==== Task 7 ====");
 //Parašyti funkciją, kuri priimtų vieną kintamąjį - tekstą. Funkcija turi išvesti tekstą į ekraną ir dar papildomai parodyti jo ilgį (simbolių kiekį).
 
@@ -95,5 +107,34 @@ console.log(telefonoNumeris(["hi", 2, 4, 5, 6, 6, 5, 4, 3, 3])); */
 //console.log("==== Task 9 ====");
 //Parašyti funkciją, kuri priimtų du kintamuosius - tekstus. Palyginti kuris tekstas yra ilgesnis.
 
+/* function tekstas(a, b) {
+  if (typeof a !== "string" || typeof b !== "string") {
+    return "Kintamasis nėra tekstas";
+  }
+  if (a.length > b.length) {
+    return "Tekstas a yra ilgesnis";
+  }
+  if (b.length > a.length) {
+    return "Tekstas b yra ilgesnis";
+  } else {
+    return "Kintamieji yra lygūs";
+  }
+}
+console.log(tekstas("la", "labas")); */
+
 //console.log("==== Task 10 ====");
 //Parašyti funkciją, kuri priimtų vieną kintamąjį - tekstą. Suskaičiuoti, kiek tekste yra ‚a‘ raidžių.
+
+/* let count = 0;
+function tekstas(a) {
+  if (typeof a !== "string") {
+    return "Kintamasis nėra tekstas";
+  }
+  for (i = 0; i < a.length; i++)
+    if (a[i] === "a" || a[i] === "A") {
+      count++;
+    }
+  return "Tekste yra " + count + " a ";
+}
+
+console.log(tekstas("laba dienA")); */
